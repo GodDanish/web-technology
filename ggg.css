@@ -1,0 +1,62 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: silver;
+    font-family: 'Comic Neue', cursive;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+header nav ul a{
+    text-decoration: none;
+    transition: .1s;
+    font-size: 20px;
+}
+
+header nav ul a:hover{
+    color: green;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left{
+max-width: 60%;
+padding: 40px;
+}
+
+.left h3{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.left p{
+    font-size: 20px;
+    color: rgb(26, 23, 23);
+}
+
+.right img{
+    width: 500px;
+}
